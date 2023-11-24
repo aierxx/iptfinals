@@ -146,7 +146,7 @@ footer {
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 780px) {
     body {
         padding-left: 2%;
         padding-right: 2%;
@@ -167,12 +167,6 @@ footer {
     .image-grid {
         padding-top: 100px;
     }
-	.image-grid .product {
-	 margin: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-        padding: 10px;
-	}
 }
 
 @media (max-width: 480px) {
@@ -196,10 +190,5 @@ footer {
     .image-grid {
         padding-top: 50px;
     }
-	.image-grid .product {
-	 margin: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-        padding: 5px;
-	}
+	
 }
