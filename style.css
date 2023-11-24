@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+body {
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    background-image: url(https://i.imgur.com/Heu1Q7z.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin:0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 16%;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+	margin:10px;
+	padding:0;
+	
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+	margin:10px; 
+}
+nav a:hover{
+	color: #fff;
+}
+nav ul li a::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: #D3D3D3;
+	margin: auto;
+	display: block;
+}
+
+main {
+    padding: 0px;
+	margin:0;
+}
+
+.banner {
+    text-align: left;
+    padding: 0;
+	margin-left: 20px;
+	padding-top: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+		padding-top: 150px;
+}
+.image-grid .product {
+    background-color: white;
+	color: #000;
+    border-radius: 10px;
+    margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+	align-items: center;
+    width: 190px;
+	height: 295px;
+	justify-content: space-between;
+	cursor: pointer; 
+
+}
+
+
+.product img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+	padding-top: 300px;
+}
+
+.container h1{
+	color: #fff;
+	padding-top: 300px;
+    margin-left: 20px;
+}
+.container .p{
+	color: #fff;
+	color: #fff;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-links bx bxl-instagram {
+    width: 200x;
+    height: 200px;
+	color: #fff;
+}
+
+ @media only screen and (max-width: 600px) {
+    /* Add responsive styles for smaller screens here */
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .banner {
+        padding-top: 150px;
+    }
+
+    .image-grid .product {
+        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
