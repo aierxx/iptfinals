@@ -146,18 +146,19 @@ footer {
 }
 
 
-@media (max-width: 780px) {
+@media screen and (max-width: 768px) {
     body {
         padding-left: 2%;
         padding-right: 2%;
     }
 
-    header {
-        height: 20%;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .logo {
-        font-size: 20px;
+    nav ul li {
+        margin: 10px 0;
     }
 
     .banner {
@@ -167,28 +168,10 @@ footer {
     .image-grid {
         padding-top: 100px;
     }
-}
 
-@media (max-width: 480px) {
-    body {
-        padding-left: 1%;
-        padding-right: 1%;
+    .container h1,
+    .container .p,
+    footer {
+        padding-top: 100px;
     }
-
-    header {
-        height: 25%;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-
-    .banner {
-        padding-top: 50px;
-    }
-
-    .image-grid {
-        padding-top: 50px;
-    }
-	
 }
