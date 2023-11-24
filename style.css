@@ -145,9 +145,31 @@ footer {
 	color: #fff;
 }
 
- @media  (max-width: 1231px) {
-    /* Add responsive styles for smaller screens here */
-   @media (max-width: 480px) {
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    header {
+        height: 20%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .banner {
+        padding-top: 100px;
+    }
+
+    .image-grid {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 480px) {
     body {
         padding-left: 1%;
         padding-right: 1%;
