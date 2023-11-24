@@ -145,32 +145,27 @@ footer {
 	color: #fff;
 }
 
- @media only screen and (max-width: 600px) {
+ @media  (max-width: 1231px) {
     /* Add responsive styles for smaller screens here */
+   @media (max-width: 480px) {
     body {
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
     header {
-        height: 20%;
+        height: 25%;
     }
 
     .logo {
         font-size: 18px;
     }
 
-    nav ul li {
-        margin-right: 10px;
-    }
-
     .banner {
-        padding-top: 150px;
+        padding-top: 50px;
     }
 
-    .image-grid .product {
-        margin: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+    .image-grid {
+        padding-top: 50px;
     }
 }
